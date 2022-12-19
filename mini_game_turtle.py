@@ -22,7 +22,7 @@ while True:
             t.left(angulo)
         elif rotacao == 'd':
             angulo = int(input("Deseja rotacionar a tartaruga em quantos graus para direita? "))
-            t.direita(angulo)
+            t.right(angulo)
         t.backward(distancia)
     resposta = input('Deseja continuar andando? "s/sim" ou "n/não" ')
     if resposta == 's':
